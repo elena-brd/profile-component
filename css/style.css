@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #2b2f33;
+  color: #fff;
+  padding: 0 2rem;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.add-account-text {
+  display: none;
+  font-size: 0.65rem;
+  background: #202428;
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+}
+
+/* buttons */
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-settings {
+  background-image: linear-gradient(to right, #d23baf, #ec8600);
+  color: #fff;
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 2px;
+  font-weight: 500;
+  box-shadow: 0px 5px 5px -2px rgba(0, 0, 0, 0.4);
+}
+
+.btn-settings:hover {
+  background-image: linear-gradient(to right, #6d1158, #de6400);
+  box-shadow: 0px 3px 3px -2px rgba(244, 232, 0, 0.9);
+}
+
+.btn-create-new-account {
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  color: #ccc;
+  border: 2px dashed #202428;
+}
+
+.btn-sign-out {
+  border: 2px solid #202428;
+  font-size: 0.72rem;
+  color: #ccc;
+  padding: 0.3rem 1.5rem;
+  border-radius: 5px;
+}
+
+.btn-sign-out:hover {
+  background: #de6400;
+  color: #fff;
+  border: 2px solid #de6400;
+}
+
+/* divider */
+.divider {
+  height: 2px;
+  background: #202428;
+  margin: 1rem 0;
+}
+
+.divider-light {
+  height: 2px;
+  background: #27292b;
+  margin: 1rem 0;
+}
+
+/* images */
+img {
+  border-radius: 50%;
+}
+
+.icon-image img {
+  width: 40px;
+}
+
+.info img {
+  width: 65px;
+  margin-right: 1rem;
+}
+
+/* icons */
+.icon {
+  margin-right: 1rem;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+}
+
+.icon-green {
+  background: #a9cf1f;
+}
+
+.icon-blue {
+  background: #1f7acf;
+}
+
+.icon-purple {
+  background: #b51fcf;
+}
+
+.container {
+  margin: 0 auto;
+  background: #202428;
+  width: 100%;
+  max-width: 395px;
+  border-radius: 5px;
+  padding: 2rem 3rem;
+}
+
+/* card header */
+#card-header .updates {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+#card-header .btn-updates {
+  margin-right: 2rem;
+  color: #f4f4f4;
+}
+
+#card-header .btn-updates:hover {
+  color: #ffd903;
+}
+
+/* main card */
+#main-card {
+  background: #2b2f33;
+  border-radius: 5px;
+  padding: 1.8rem;
+}
+
+#main-card .info {
+  display: flex;
+  align-items: center;
+}
+
+#main-card .info p,
+.contact p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #ccc;
+}
+
+/* contacts */
+#contacts .contact {
+  display: flex;
+  margin: 1rem 0;
+}
+
+/* navigation */
+#navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
